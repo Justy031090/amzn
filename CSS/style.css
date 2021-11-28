@@ -1,8 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+@font-face {font-family: "Amazon Ember"; src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot"); src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg"); }
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 list-style: none;
+font-family: "Amazon Ember" sans-serif;
 }
 hr{
     color:transparent;
@@ -423,6 +426,7 @@ display: flex;
 }
 .right-box-btn:hover{
     filter: brightness(90%);
+    cursor: pointer;
 }
 #add-to-cart-btn{
     background: #FFD814;
